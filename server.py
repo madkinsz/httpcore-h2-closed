@@ -6,4 +6,4 @@ app = FastAPI()
 
 @app.get("/")
 async def root():
-    await anyio.sleep_forever()
+    await anyio.sleep(5)
