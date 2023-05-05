@@ -1,3 +1,6 @@
+"""
+A simple client usage example that makes 100 requests, logging errors as encountered.
+"""
 from httpx import AsyncClient
 import anyio
 import traceback

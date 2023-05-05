@@ -1,3 +1,7 @@
+"""
+A simple HTTP server that sleeps for 5 seconds on every request.
+"""
+
 import anyio
 from fastapi import FastAPI
 

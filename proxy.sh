@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+# A HTTPS reverse proxy mapping localhost:433 to localhost:8080
+# HTTP/2 requests are proxied to the HTTP/1 backing server
 
 set -xeo
 
